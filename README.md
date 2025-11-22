@@ -53,7 +53,7 @@ Open the project folder in Jupiter Lab and check if all files are present and if
 ------------------------------------------------------------------------
 
 
-## 1.1) Collect the data
+### 1.1) Collect the data
 
 If job data is missing, or reproducing it is required, the `scraper.py` script is a custom-built data collection tool that extracts
 job postings from the Austrian public sector job portal. 
@@ -101,7 +101,7 @@ Creates 3 tabels:
 -   `job_units` - bullet/sentence-level units + embeddings
 -   `job_phrases` - extracted KeyBERT phrases + embeddings
 
-Run: open the notebook and run cell by cell.
+Run: open the `job_preprocessing` notebook and run cell by cell.
 Embeddings are computed using the model in `config.EMBEDDER_MODEL`.
 
 ------------------------------------------------------------------------
@@ -114,7 +114,7 @@ Creates 3 tables:
 -   `esco_labels` (label vectors)
 -   `esco_desc` (description vectors)
 
-Run: run the notebook cell by cell
+Run: run the `skill_preprocessing` notebook cell by cell
 
 ------------------------------------------------------------------------
 
@@ -132,7 +132,7 @@ Creates `matched_results` with:
 -   `unit_matches_knowledge`, `unit_matches_skills`
 -   `final_meta` - merged, percentile-normalized top results
 
-Run: run notebook cell by cell
+Run: run `matcher` notebook cell by cell
 
 ------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ Run: run notebook cell by cell
 - `esco_skills` - base ESCO table
 - `esco_labels` - ESCO label embeddings
 - `esco_desc` - ESCO description embeddings
-- `matched_results` - all match results with JSON fields
+- `matched_results` - all match results with JSON fields including an aggregated column `final_meta`
 
 **Example of `final_meta` JSON:**
 
