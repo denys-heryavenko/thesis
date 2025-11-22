@@ -175,4 +175,4 @@ Run: run `matcher` notebook cell by cell
 
 ## License
 
-This project is licensed under the **MIT License** — see the [License](./License) file for details.
+This project is licensed under the **MIT License** — see the [License](./License.txt) file for details.
