@@ -1,0 +1,11 @@
+pandas
+numpy
+regex
+scikit-learn
+spacy
+keybert
+sentence-transformers
+torch
+selenium
+webdriver-manager
+beautifulsoup4
