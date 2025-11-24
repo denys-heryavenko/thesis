@@ -26,7 +26,7 @@ relative.
 - data/
   - job_details.csv - input jobs file
   - skills_de.csv - ESCO input
-  - v3.sqlite - generated SQLite DB
+  - db.sqlite - generated SQLite DB
 - requirements.txt
 - README.md
 - License
