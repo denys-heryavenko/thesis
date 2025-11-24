@@ -48,7 +48,7 @@ relative.
 
 ### 1) Environment Setup
 
-Open the project folder in Jupiter Lab and check if all files are present and if the directories work.
+Open the project folder in Jupiter Lab, install all requirements and check if all files are present and if the directories work.
 
 ------------------------------------------------------------------------
 
