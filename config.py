@@ -62,7 +62,7 @@ SAMPLE_JOBS = None # here a random number of jobs can be selected and processed.
 # ranking caps
 TOP_K_PHRASE = 20 #top-k matches per skillType on phrase level. Number per job = *2
 MAX_UNIT_MATCHES = 20 #same, but for units
-FINAL_TOP = 40
+FINAL_TOP = 25
 
 #hybrid weighting for phrase-level scoring
 W_SEMANTIC = 0.6
