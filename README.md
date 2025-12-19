@@ -28,6 +28,7 @@ relative.
   - skills_de.csv - ESCO input
   - db.sqlite - generated SQLite DB
 - requirements.txt
+- scraper_chat_excert.md
 - README.md
 - License
 
